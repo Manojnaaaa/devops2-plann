@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plant Monitoring DevOps Plan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      background-color: #f2f5f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .lifecycle {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .stage {
+      flex: 1 1 220px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      border-left: 6px solid #4CAF50;
+      transition: transform 0.3s ease;
+    }
+
+    .stage:hover {
+      transform: translateY(-5px);
+    }
+
+    .stage h2 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+
+    .arrow {
+      text-align: center;
+      font-size: 2rem;
+      margin: 1rem 0;
+      color: #4CAF50;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌿 DevOps Lifecycle - Plant Monitoring App</h1>
+</header>
+
+<div class="container">
+
+  <div class="lifecycle">
+
+    <div class="stage">
+      <h2>📝 Plan</h2>
+      <p>Define sensors, features, and goals. Plan data collection, thresholds, and alert types.</p>
+    </div>
+
+    <div class="stage">
+      <h2>💻 Develop</h2>
+      <p>Write frontend UI, backend logic, and microcontroller code (e.g., Arduino or ESP32).</p>
+    </div>
+
+    <div class="stage">
+      <h2>🧪 Test</h2>
+      <p>Test sensor readings, API responses, and app logic. Simulate moisture/temp scenarios.</p>
+    </div>
+
+    <div class="stage">
+      <h2>🚀 Release</h2>
+      <p>Version your app and firmware. Prepare for deployment with changelogs and tags.</p>
+    </div>
+
+    <div class="stage">
+      <h2>📦 Deploy</h2>
+      <p>Deploy frontend (e.g., Netlify), backend (e.g., Render), and flash microcontroller code.</p>
+    </div>
+
+    <div class="stage">
+      <h2>⚙️ Operate</h2>
+      <p>Run services, maintain connections, and ensure devices send data reliably.</p>
+    </div>
+
+    <div class="stage">
+      <h2>📊 Monitor</h2>
+      <p>Visualize sensor data, trigger alerts, and collect logs for performance and history.</p>
+    </div>
+
+  </div>
+
+  <div class="arrow">🔁 Continuous Feedback Loop</div>
+
+</div>
+
+<footer>
+  &copy; 2025 Plant DevOps | Designed for Smart Garden Automation 🌱
+</footer>
+
+</body>
+</html>
